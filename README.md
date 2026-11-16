@@ -1,4 +1,6 @@
-# 💳 Totalnet BI — Inteligencia Comercial & Salud Operativa de Adquirencia
+# 💳 Totalnet BI 
+
+# Inteligencia Comercial & Salud Operativa de Adquirencia
 
 Análisis estratégico del ecosistema multi-adquirente de pagos electrónicos en Uruguay orientado a monitorear el volumen procesado (TPV), la rentabilidad por aranceles, la liquidación neta a comercios y la estabilidad técnica de la red mediante ingeniería de datos en PostgreSQL y visualización ejecutiva en Power BI.
 

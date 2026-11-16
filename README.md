@@ -1,44 +1,83 @@
-# 💳 Totalnet BI — Inteligencia Comercial & Salud Operativa de Adquirencia (Uruguay)
+# 💳 Totalnet BI — Inteligencia Comercial & Salud Operativa de Adquirencia
 
-Proyecto *end-to-end* de Business Intelligence y Data Analytics simulando la operación multi-adquirente de **Totalnet** en Uruguay, abarcando generación sintética de datos, ETL en PostgreSQL con deduplicación transaccional y visualización ejecutiva en Power BI[cite: 17].
-
----
-
-## 🏗️ Arquitectura del Pipeline
-
-1. **Generación de Datos (`generate_data.py`):** Simulación de 250 comercios uruguayos (`dim_comercios.csv`) y 18.015 intentos transaccionales (`fact_transacciones.csv`), modelando estacionalidad de cobro de sueldos, estructura de aranceles por rubro/canal, reintentos duplicados de POS y una anomalía técnica regional[cite: 13, 17].
-2. **Data Warehousing & ETL (`PostgreSQL`):**
-   - Ingesta masiva mediante `COPY` hacia tabla de *staging* (`stg_transacciones`).
-   - Auditoría y deduplicación mediante *Window Functions* (`ROW_NUMBER() OVER(PARTITION BY transaction_id)`), eliminando 15 reintentos duplicados de POS antes de la liquidación.
-   - Modelado en **Esquema Estrella** (`dim_comercios` + `fact_transacciones`) con integridad referencial (`PK`/`FK`) y cálculo financiero de arancel y neto a liquidar[cite: 17].
-   - Creación de vistas analíticas para consumo ejecutivo (`vw_resumen_ejecutivo_comercios` y `vw_monitoreo_anomalias_red`).
-3. **Modelado Semántico & Visualización (`Power BI` + `DAX`):**
-   - Tabla dedicada de 9 medidas DAX: *TPV Aprobado (UYU)*, *Ingresos Arancel (UYU)*, *Neto Liquidado Comercios (UYU)*, *Take Rate Efectivo %*, *Ticket Promedio (UYU)*, *Total Intentos*, *Tx Aprobadas*, *Tasa Aprobación %* y *Tasa Falla Técnica %*[cite: 13, 16].
+Análisis estratégico del ecosistema multi-adquirente de pagos electrónicos en Uruguay orientado a monitorear el volumen procesado (TPV), la rentabilidad por aranceles, la liquidación neta a comercios y la estabilidad técnica de la red mediante ingeniería de datos en PostgreSQL y visualización ejecutiva en Power BI[cite: 11, 12].
 
 ---
 
-## 💡 Principales Hallazgos de Negocio
+# 🎯 Objetivo del Proyecto
 
-* **Volumen y Rentabilidad:** Se procesaron **$30,70M UYU** en TPV aprobado (16.499 transacciones aprobadas sobre 18.000 intentos únicos), logrando una tasa de aprobación global del **91,66 %**, un ticket promedio de **$1,86K UYU** y **$641,66K UYU** en ingresos por aranceles (*Take Rate efectivo* del **2,09 %**)[cite: 13, 16].
-* **Diagnóstico de Rechazos (Comercial vs. Técnico):** Del total de operaciones rechazadas, el **62,29 %** responde a *Fondos Insuficientes*, pero un **37,71 %** corresponde a fallas técnicas recuperables (**25,05 %** *Error Red/POS* y **12,66 %** *Timeout*), representando una oportunidad directa de recupero de TPV[cite: 13].
-* **Anomalía Regional Detectada:** El monitoreo cruzado por departamento y canal identificó una degradación en la estabilidad de terminales **Smart POS en Canelones** (tasa de falla técnica del **4,04 %** sobre alto volumen transaccional), permitiendo focalizar acciones preventivas de soporte técnico y conectividad[cite: 13].
+Desarrollar un sistema integral de inteligencia de negocio y monitoreo operativo que permita auditar y optimizar:
+
+- Volumen total procesado (TPV) y estacionalidad de consumo[cite: 11]
+- Rentabilidad por aranceles (*Take Rate* efectivo) y liquidación neta a comercios[cite: 11]
+- Tasa de aprobación transaccional y causas de rechazo[cite: 8, 11]
+- Estabilidad técnica por canal de captura y departamento geográfico[cite: 8]
+
+El proyecto busca transformar registros transaccionales crudos en indicadores accionables para maximizar la tasa de aprobación y anticipar degradaciones operativas en terminales de pago[cite: 8, 11].
 
 ---
 
-## 📊 Vistas del Dashboard (Power BI)
+# 🧠 Problema de Negocio
+
+En operaciones de adquirencia multi-canal, la falta de visibilidad consolidada entre el desempeño financiero y la salud técnica de la red genera:
+
+- Pérdida directa de volumen transaccional (TPV) por rechazos técnicos evitables (*timeouts* y errores de red/POS)[cite: 8]
+- Dificultad para distinguir rechazos comerciales del emisor frente a fallas operativas propias de la infraestructura[cite: 8]
+- Riesgo de liquidación duplicada ante reintentos automáticos de terminales POS
+- Falta de detección temprana sobre degradaciones regionales en canales específicos[cite: 8]
+
+👉 Pregunta central del análisis:
+
+**¿Qué factores comerciales y técnicos están impactando la conversión transaccional y la rentabilidad de la red, y dónde focalizar acciones preventivas para recuperar TPV?**
+
+---
+
+# 🚀 Resultados Clave del Negocio
+
+| KPI Estratégico | Resultado |
+|---|---|
+| Volumen procesado (TPV Aprobado) | $30.697.991,39 UYU ($30,70 mill.) sobre 16.499 transacciones aprobadas[cite: 8, 11] |
+| Rentabilidad por aranceles | $641,66 mil UYU generados con un *Take Rate* efectivo del 2,09%[cite: 11] |
+| Conversión global de red | 91,66% de tasa de aprobación sobre 18.000 intentos únicos validados[cite: 8] |
+| Composición de rechazos | 62,29% por fondos insuficientes vs. 37,71% por fallas técnicas (25,05% Error Red/POS y 12,66% Timeout)[cite: 8] |
+| Anomalía regional detectada | Tasa de falla técnica del 4,04% en terminales Smart POS en Canelones sobre alto volumen operativo[cite: 8] |
+
+---
+
+# 💡 Recomendaciones Estratégicas
+
+| Oportunidad Detectada | Impacto Potencial |
+|---|---|
+| Auditoría técnica y actualización de firmware en Smart POS de Canelones[cite: 8] | Reducción de fallas técnicas regionales por debajo del umbral operativo del 2,5% |
+| Optimización de *timeouts* y enrutamiento en franjas pico (10:00 a 21:00 hs)[cite: 8] | Recupero directo de hasta un 15% a 20% de las transacciones rechazadas por motivos técnicos[cite: 8] |
+| Fidelización comercial en rubros líderes (Supermercados, Indumentaria y Gastronomía)[cite: 11] | Protección del 63% del TPV aprobado y estabilidad en el ingreso por aranceles[cite: 11] |
+| Reglas automatizadas de deduplicación en etapa de *staging* ETL | Eliminación del 100% de riesgo por doble liquidación ante reintentos de POS |
+
+---
+
+# 📊 Dashboard Ejecutivo
 
 ### 1. Resumen Ejecutivo & Liquidación Comercial
-![Resumen Ejecutivo](Resumen%20Ejecutivo.png)[cite: 16, 17]
+![Resumen Ejecutivo](Resumen%20Ejecutivo.png)[cite: 11, 12]
 
 ### 2. Salud Operativa & Auditoría de Red
-![Salud Operativa](Salud%20operativa%20y%20rechazos.png)[cite: 13, 17]
+![Salud Operativa](Salud%20operativa%20y%20rechazos.png)[cite: 8, 12]
+
+🔗 **Acceso al dashboard interactivo:**  
+👉 [Totalnet BI Dashboard (.pbix)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/tree/main/TotalNet)[cite: 12]
 
 ---
 
-## 📂 Estructura del Repositorio
+# 📂 Dataset y Arquitectura Utilizada
 
-* `generate_data.py` — Script en Python para generación reproducible de comercios, transacciones y anomalías operativas[cite: 17].
-* `dim_comercios.csv` — Tabla maestra de comercios (rubro, departamento, tamaño y canal principal)[cite: 17].
-* `fact_transacciones.csv` — Tabla de hechos transaccionales[cite: 17].
-* `TotalNet/` — Scripts SQL del pipeline ETL (`totalnet_etl.sql`) y archivo fuente de Power BI (`TotalNet_BI_Dashboard.pbix`)[cite: 17].
-* `Resumen Ejecutivo.png` & `Salud operativa y rechazos.png` — Capturas ejecutivas del dashboard final[cite: 17].
+El pipeline fue desarrollado de extremo a extremo combinando generación sintética reproducible, modelado dimensional en PostgreSQL y explotación semántica en Power BI[cite: 12]:
+
+- **Tabla de Hechos (`fact_transacciones.csv`):** 18.015 registros transaccionales con monto en UYU, canal, sello, cuotas, estado, arancel y neto a liquidar[cite: 12]
+- **Tabla Dimensional (`dim_comercios.csv`):** 250 comercios categorizados por rubro, departamento, tamaño y canal principal[cite: 12]
+- **ETL & Data Warehouse (`PostgreSQL`):** Deduplicación mediante *Window Functions* (`ROW_NUMBER()`), esquema estrella (`PK`/`FK`) y vistas analíticas
+- **Modelado Semántico (`DAX`):** 9 medidas financieras y operativas dedicadas
+
+📥 **Acceso al dataset y código fuente:**  
+👉 [Script generador en Python (`generate_data.py`)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/blob/main/generate_data.py)[cite: 12]  
+👉 [Base transaccional (`fact_transacciones.csv`)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/blob/main/fact_transacciones.csv)[cite: 12]  
+👉 [Maestro de comercios (`dim_comercios.csv`)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/blob/main/dim_comercios.csv)[cite: 12]

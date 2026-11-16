@@ -66,7 +66,7 @@ En operaciones de adquirencia multi-canal, la falta de visibilidad consolidada e
 ![Salud Operativa](Salud%20operativa%20y%20rechazos.png).
 
 🔗 **Acceso al dashboard interactivo:**  
-👉 [Totalnet BI Dashboard (.pbix)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/tree/main/TotalNet)[cite: 12]
+👉 [Totalnet BI Dashboard (.pbix)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/tree/main/TotalNet)
 
 ---
 
@@ -81,5 +81,5 @@ El pipeline fue desarrollado de extremo a extremo combinando generación sintét
 
 📥 **Acceso al dataset y código fuente:**  
 👉 [Script generador en Python (`generate_data.py`)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/blob/main/generate_data.py)
-👉 [Base transaccional (`fact_transacciones.csv`)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/blob/main/fact_transacciones.csv)[cite: 12]  
-👉 [Maestro de comercios (`dim_comercios.csv`)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/blob/main/dim_comercios.csv)[cite: 12]
+👉 [Base transaccional (`fact_transacciones.csv`)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/blob/main/fact_transacciones.csv)  
+👉 [Maestro de comercios (`dim_comercios.csv`)](https://github.com/GuilleBerrutti/totalnet-bi-acquiring-analytics/blob/main/dim_comercios.csv)

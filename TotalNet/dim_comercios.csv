@@ -1,0 +1,251 @@
+merchant_id,nombre_comercio,rubro,departamento,tamano_comercio,canal_principal,fecha_alta
+MCH-0001,Comercio_GAST_001,Gastronomía,Salto,Mediano,Smart POS,2024-10-02
+MCH-0002,Comercio_SUPE_002,Supermercados,Montevideo,Pequeño,Smart POS,2026-03-26
+MCH-0003,Comercio_FARM_003,Farmacias,Canelones,Pequeño,Smart POS,2026-06-23
+MCH-0004,Comercio_E-CO_004,E-commerce,Montevideo,Pequeño,E-commerce Gateway,2025-10-10
+MCH-0005,Comercio_GAST_005,Gastronomía,Montevideo,Pequeño,POS Físico,2025-11-10
+MCH-0006,Comercio_FARM_006,Farmacias,Montevideo,Pequeño,POS Físico,2025-12-02
+MCH-0007,Comercio_GAST_007,Gastronomía,Maldonado,Pequeño,Smart POS,2026-02-26
+MCH-0008,Comercio_FARM_008,Farmacias,Montevideo,Mediano,POS Físico,2026-04-05
+MCH-0009,Comercio_SUPE_009,Supermercados,Salto,Grande,Smart POS,2025-01-06
+MCH-0010,Comercio_GAST_010,Gastronomía,Montevideo,Mediano,POS Físico,2026-04-20
+MCH-0011,Comercio_SUPE_011,Supermercados,Montevideo,Pequeño,Smart POS,2024-11-21
+MCH-0012,Comercio_GAST_012,Gastronomía,Canelones,Pequeño,Smart POS,2025-05-12
+MCH-0013,Comercio_FARM_013,Farmacias,Montevideo,Grande,Smart POS,2026-06-16
+MCH-0014,Comercio_ESTA_014,Estaciones de Servicio,Colonia,Pequeño,Smart POS,2026-06-18
+MCH-0015,Comercio_SUPE_015,Supermercados,Montevideo,Pequeño,POS Físico,2026-04-14
+MCH-0016,Comercio_GAST_016,Gastronomía,Montevideo,Mediano,POS Físico,2025-12-07
+MCH-0017,Comercio_GAST_017,Gastronomía,Montevideo,Pequeño,Smart POS,2025-11-22
+MCH-0018,Comercio_SUPE_018,Supermercados,Paysandú,Mediano,POS Físico,2025-02-16
+MCH-0019,Comercio_SUPE_019,Supermercados,Maldonado,Mediano,Smart POS,2024-11-09
+MCH-0020,Comercio_INDU_020,Indumentaria,Montevideo,Pequeño,POS Físico,2026-06-21
+MCH-0021,Comercio_E-CO_021,E-commerce,Canelones,Pequeño,E-commerce Gateway,2024-12-21
+MCH-0022,Comercio_GAST_022,Gastronomía,Montevideo,Mediano,Smart POS,2025-12-27
+MCH-0023,Comercio_E-CO_023,E-commerce,Montevideo,Pequeño,Link de Pago,2024-09-21
+MCH-0024,Comercio_INDU_024,Indumentaria,Canelones,Mediano,Smart POS,2025-01-06
+MCH-0025,Comercio_FARM_025,Farmacias,Montevideo,Pequeño,POS Físico,2025-05-15
+MCH-0026,Comercio_SUPE_026,Supermercados,Canelones,Pequeño,Smart POS,2025-12-05
+MCH-0027,Comercio_ESTA_027,Estaciones de Servicio,Montevideo,Pequeño,Smart POS,2025-04-15
+MCH-0028,Comercio_SUPE_028,Supermercados,Montevideo,Pequeño,POS Físico,2024-11-22
+MCH-0029,Comercio_ESTA_029,Estaciones de Servicio,Maldonado,Mediano,Smart POS,2025-10-07
+MCH-0030,Comercio_E-CO_030,E-commerce,Montevideo,Mediano,E-commerce Gateway,2026-07-12
+MCH-0031,Comercio_E-CO_031,E-commerce,Colonia,Pequeño,E-commerce Gateway,2026-02-05
+MCH-0032,Comercio_SUPE_032,Supermercados,Montevideo,Mediano,Smart POS,2025-05-12
+MCH-0033,Comercio_SUPE_033,Supermercados,Montevideo,Pequeño,POS Físico,2025-08-04
+MCH-0034,Comercio_SUPE_034,Supermercados,Montevideo,Grande,POS Físico,2025-10-07
+MCH-0035,Comercio_FARM_035,Farmacias,Canelones,Pequeño,Smart POS,2026-02-09
+MCH-0036,Comercio_ESTA_036,Estaciones de Servicio,Montevideo,Pequeño,POS Físico,2025-12-10
+MCH-0037,Comercio_GAST_037,Gastronomía,Montevideo,Mediano,Smart POS,2025-08-08
+MCH-0038,Comercio_SUPE_038,Supermercados,Montevideo,Grande,POS Físico,2026-04-05
+MCH-0039,Comercio_SUPE_039,Supermercados,Montevideo,Grande,POS Físico,2026-04-15
+MCH-0040,Comercio_INDU_040,Indumentaria,Maldonado,Pequeño,Smart POS,2025-06-24
+MCH-0041,Comercio_GAST_041,Gastronomía,Canelones,Mediano,Smart POS,2026-04-10
+MCH-0042,Comercio_SUPE_042,Supermercados,Maldonado,Pequeño,POS Físico,2025-07-16
+MCH-0043,Comercio_SUPE_043,Supermercados,Canelones,Mediano,POS Físico,2025-07-31
+MCH-0044,Comercio_FARM_044,Farmacias,Montevideo,Mediano,POS Físico,2024-11-07
+MCH-0045,Comercio_INDU_045,Indumentaria,Montevideo,Grande,POS Físico,2025-10-21
+MCH-0046,Comercio_GAST_046,Gastronomía,Montevideo,Grande,Smart POS,2026-06-04
+MCH-0047,Comercio_GAST_047,Gastronomía,Canelones,Mediano,Smart POS,2025-04-04
+MCH-0048,Comercio_FARM_048,Farmacias,Montevideo,Pequeño,Smart POS,2025-01-15
+MCH-0049,Comercio_ESTA_049,Estaciones de Servicio,Canelones,Pequeño,POS Físico,2026-03-13
+MCH-0050,Comercio_INDU_050,Indumentaria,Colonia,Mediano,Smart POS,2025-06-26
+MCH-0051,Comercio_FARM_051,Farmacias,Montevideo,Pequeño,Smart POS,2026-04-29
+MCH-0052,Comercio_FARM_052,Farmacias,Montevideo,Pequeño,Smart POS,2024-12-30
+MCH-0053,Comercio_SUPE_053,Supermercados,Montevideo,Pequeño,Smart POS,2025-09-21
+MCH-0054,Comercio_INDU_054,Indumentaria,Montevideo,Mediano,POS Físico,2024-10-13
+MCH-0055,Comercio_GAST_055,Gastronomía,Maldonado,Mediano,Smart POS,2024-10-23
+MCH-0056,Comercio_INDU_056,Indumentaria,Canelones,Pequeño,POS Físico,2025-07-13
+MCH-0057,Comercio_GAST_057,Gastronomía,Montevideo,Grande,POS Físico,2024-12-04
+MCH-0058,Comercio_E-CO_058,E-commerce,Canelones,Mediano,E-commerce Gateway,2026-01-03
+MCH-0059,Comercio_FARM_059,Farmacias,Montevideo,Pequeño,Smart POS,2026-05-08
+MCH-0060,Comercio_GAST_060,Gastronomía,Montevideo,Mediano,POS Físico,2026-06-02
+MCH-0061,Comercio_ESTA_061,Estaciones de Servicio,Salto,Grande,POS Físico,2025-11-27
+MCH-0062,Comercio_SUPE_062,Supermercados,Salto,Pequeño,Smart POS,2025-09-25
+MCH-0063,Comercio_ESTA_063,Estaciones de Servicio,Colonia,Pequeño,POS Físico,2026-04-28
+MCH-0064,Comercio_E-CO_064,E-commerce,Montevideo,Pequeño,E-commerce Gateway,2025-11-22
+MCH-0065,Comercio_ESTA_065,Estaciones de Servicio,Canelones,Pequeño,POS Físico,2026-04-06
+MCH-0066,Comercio_FARM_066,Farmacias,Paysandú,Pequeño,Smart POS,2025-06-24
+MCH-0067,Comercio_E-CO_067,E-commerce,Maldonado,Mediano,Link de Pago,2025-10-07
+MCH-0068,Comercio_GAST_068,Gastronomía,Montevideo,Mediano,Smart POS,2025-04-10
+MCH-0069,Comercio_E-CO_069,E-commerce,Salto,Pequeño,E-commerce Gateway,2024-10-06
+MCH-0070,Comercio_INDU_070,Indumentaria,Canelones,Mediano,Smart POS,2025-07-10
+MCH-0071,Comercio_E-CO_071,E-commerce,Montevideo,Pequeño,E-commerce Gateway,2026-02-02
+MCH-0072,Comercio_FARM_072,Farmacias,Montevideo,Pequeño,Smart POS,2025-07-04
+MCH-0073,Comercio_GAST_073,Gastronomía,Canelones,Pequeño,POS Físico,2025-07-20
+MCH-0074,Comercio_E-CO_074,E-commerce,Montevideo,Pequeño,E-commerce Gateway,2025-12-16
+MCH-0075,Comercio_INDU_075,Indumentaria,Montevideo,Mediano,POS Físico,2025-10-18
+MCH-0076,Comercio_SUPE_076,Supermercados,Montevideo,Pequeño,Smart POS,2024-09-23
+MCH-0077,Comercio_INDU_077,Indumentaria,Paysandú,Pequeño,POS Físico,2026-05-06
+MCH-0078,Comercio_INDU_078,Indumentaria,Montevideo,Pequeño,POS Físico,2024-11-02
+MCH-0079,Comercio_SUPE_079,Supermercados,Paysandú,Mediano,Smart POS,2024-10-06
+MCH-0080,Comercio_GAST_080,Gastronomía,Montevideo,Pequeño,POS Físico,2026-01-24
+MCH-0081,Comercio_FARM_081,Farmacias,Canelones,Mediano,POS Físico,2025-01-18
+MCH-0082,Comercio_ESTA_082,Estaciones de Servicio,Maldonado,Pequeño,Smart POS,2025-11-10
+MCH-0083,Comercio_GAST_083,Gastronomía,Montevideo,Pequeño,Smart POS,2026-02-01
+MCH-0084,Comercio_SUPE_084,Supermercados,Montevideo,Pequeño,POS Físico,2025-04-01
+MCH-0085,Comercio_E-CO_085,E-commerce,Canelones,Pequeño,E-commerce Gateway,2025-06-25
+MCH-0086,Comercio_GAST_086,Gastronomía,Montevideo,Pequeño,POS Físico,2025-10-15
+MCH-0087,Comercio_GAST_087,Gastronomía,Canelones,Mediano,POS Físico,2024-10-01
+MCH-0088,Comercio_GAST_088,Gastronomía,Canelones,Pequeño,Smart POS,2024-12-25
+MCH-0089,Comercio_INDU_089,Indumentaria,Montevideo,Pequeño,Smart POS,2025-12-06
+MCH-0090,Comercio_SUPE_090,Supermercados,Canelones,Grande,Smart POS,2025-08-20
+MCH-0091,Comercio_GAST_091,Gastronomía,Canelones,Pequeño,Smart POS,2026-05-22
+MCH-0092,Comercio_ESTA_092,Estaciones de Servicio,Montevideo,Grande,Smart POS,2025-11-26
+MCH-0093,Comercio_SUPE_093,Supermercados,Montevideo,Pequeño,POS Físico,2026-06-16
+MCH-0094,Comercio_SUPE_094,Supermercados,Canelones,Pequeño,POS Físico,2025-08-29
+MCH-0095,Comercio_E-CO_095,E-commerce,Montevideo,Mediano,E-commerce Gateway,2025-06-03
+MCH-0096,Comercio_SUPE_096,Supermercados,Canelones,Mediano,Smart POS,2025-10-17
+MCH-0097,Comercio_INDU_097,Indumentaria,Maldonado,Pequeño,POS Físico,2026-05-12
+MCH-0098,Comercio_INDU_098,Indumentaria,Maldonado,Grande,POS Físico,2025-12-14
+MCH-0099,Comercio_GAST_099,Gastronomía,Maldonado,Pequeño,Smart POS,2024-12-15
+MCH-0100,Comercio_E-CO_100,E-commerce,Montevideo,Mediano,Link de Pago,2025-08-30
+MCH-0101,Comercio_SUPE_101,Supermercados,Colonia,Pequeño,Smart POS,2025-12-13
+MCH-0102,Comercio_GAST_102,Gastronomía,Colonia,Pequeño,POS Físico,2025-02-22
+MCH-0103,Comercio_ESTA_103,Estaciones de Servicio,Montevideo,Pequeño,Smart POS,2025-06-08
+MCH-0104,Comercio_ESTA_104,Estaciones de Servicio,Canelones,Mediano,POS Físico,2024-09-28
+MCH-0105,Comercio_GAST_105,Gastronomía,Montevideo,Mediano,Smart POS,2025-04-05
+MCH-0106,Comercio_INDU_106,Indumentaria,Maldonado,Pequeño,Smart POS,2026-02-22
+MCH-0107,Comercio_SUPE_107,Supermercados,Montevideo,Pequeño,Smart POS,2025-10-20
+MCH-0108,Comercio_GAST_108,Gastronomía,Montevideo,Pequeño,Smart POS,2026-02-26
+MCH-0109,Comercio_FARM_109,Farmacias,Montevideo,Pequeño,Smart POS,2025-11-08
+MCH-0110,Comercio_SUPE_110,Supermercados,Maldonado,Mediano,POS Físico,2024-12-21
+MCH-0111,Comercio_SUPE_111,Supermercados,Paysandú,Pequeño,POS Físico,2025-01-13
+MCH-0112,Comercio_E-CO_112,E-commerce,Salto,Grande,Link de Pago,2025-10-22
+MCH-0113,Comercio_GAST_113,Gastronomía,Montevideo,Mediano,Smart POS,2024-11-27
+MCH-0114,Comercio_GAST_114,Gastronomía,Colonia,Pequeño,Smart POS,2025-05-06
+MCH-0115,Comercio_SUPE_115,Supermercados,Montevideo,Pequeño,POS Físico,2024-11-28
+MCH-0116,Comercio_SUPE_116,Supermercados,Canelones,Mediano,Smart POS,2025-06-05
+MCH-0117,Comercio_ESTA_117,Estaciones de Servicio,Montevideo,Pequeño,Smart POS,2025-07-13
+MCH-0118,Comercio_SUPE_118,Supermercados,Paysandú,Pequeño,Smart POS,2025-12-06
+MCH-0119,Comercio_SUPE_119,Supermercados,Colonia,Pequeño,Smart POS,2026-02-27
+MCH-0120,Comercio_SUPE_120,Supermercados,Canelones,Grande,Smart POS,2025-02-12
+MCH-0121,Comercio_FARM_121,Farmacias,Canelones,Pequeño,Smart POS,2025-02-28
+MCH-0122,Comercio_FARM_122,Farmacias,Colonia,Pequeño,POS Físico,2026-04-16
+MCH-0123,Comercio_ESTA_123,Estaciones de Servicio,Colonia,Pequeño,Smart POS,2026-05-31
+MCH-0124,Comercio_GAST_124,Gastronomía,Montevideo,Pequeño,POS Físico,2026-03-28
+MCH-0125,Comercio_FARM_125,Farmacias,Montevideo,Grande,Smart POS,2026-02-12
+MCH-0126,Comercio_INDU_126,Indumentaria,Montevideo,Pequeño,Smart POS,2024-10-14
+MCH-0127,Comercio_INDU_127,Indumentaria,Montevideo,Grande,Smart POS,2026-02-05
+MCH-0128,Comercio_ESTA_128,Estaciones de Servicio,Canelones,Mediano,POS Físico,2025-05-12
+MCH-0129,Comercio_ESTA_129,Estaciones de Servicio,Colonia,Pequeño,POS Físico,2024-11-15
+MCH-0130,Comercio_GAST_130,Gastronomía,Maldonado,Grande,POS Físico,2026-05-14
+MCH-0131,Comercio_FARM_131,Farmacias,Montevideo,Grande,Smart POS,2025-06-19
+MCH-0132,Comercio_E-CO_132,E-commerce,Montevideo,Pequeño,E-commerce Gateway,2025-06-23
+MCH-0133,Comercio_SUPE_133,Supermercados,Colonia,Mediano,Smart POS,2024-11-15
+MCH-0134,Comercio_ESTA_134,Estaciones de Servicio,Canelones,Mediano,Smart POS,2025-03-26
+MCH-0135,Comercio_E-CO_135,E-commerce,Montevideo,Pequeño,E-commerce Gateway,2025-01-23
+MCH-0136,Comercio_ESTA_136,Estaciones de Servicio,Canelones,Pequeño,Smart POS,2025-11-03
+MCH-0137,Comercio_FARM_137,Farmacias,Montevideo,Pequeño,Smart POS,2024-12-29
+MCH-0138,Comercio_FARM_138,Farmacias,Maldonado,Pequeño,Smart POS,2026-07-07
+MCH-0139,Comercio_FARM_139,Farmacias,Canelones,Mediano,POS Físico,2026-03-23
+MCH-0140,Comercio_SUPE_140,Supermercados,Montevideo,Mediano,Smart POS,2025-01-15
+MCH-0141,Comercio_INDU_141,Indumentaria,Montevideo,Pequeño,POS Físico,2025-10-18
+MCH-0142,Comercio_GAST_142,Gastronomía,Canelones,Pequeño,POS Físico,2024-09-30
+MCH-0143,Comercio_ESTA_143,Estaciones de Servicio,Montevideo,Pequeño,Smart POS,2025-08-04
+MCH-0144,Comercio_GAST_144,Gastronomía,Canelones,Mediano,Smart POS,2026-03-26
+MCH-0145,Comercio_SUPE_145,Supermercados,Salto,Pequeño,POS Físico,2025-09-21
+MCH-0146,Comercio_GAST_146,Gastronomía,Paysandú,Pequeño,POS Físico,2025-04-29
+MCH-0147,Comercio_FARM_147,Farmacias,Montevideo,Pequeño,POS Físico,2026-02-07
+MCH-0148,Comercio_SUPE_148,Supermercados,Montevideo,Pequeño,Smart POS,2025-04-10
+MCH-0149,Comercio_SUPE_149,Supermercados,Montevideo,Mediano,Smart POS,2026-07-15
+MCH-0150,Comercio_INDU_150,Indumentaria,Montevideo,Pequeño,POS Físico,2025-10-22
+MCH-0151,Comercio_SUPE_151,Supermercados,Montevideo,Pequeño,POS Físico,2025-02-21
+MCH-0152,Comercio_SUPE_152,Supermercados,Montevideo,Pequeño,POS Físico,2026-01-17
+MCH-0153,Comercio_FARM_153,Farmacias,Canelones,Pequeño,Smart POS,2025-02-14
+MCH-0154,Comercio_FARM_154,Farmacias,Montevideo,Mediano,Smart POS,2026-04-01
+MCH-0155,Comercio_SUPE_155,Supermercados,Montevideo,Mediano,Smart POS,2024-10-16
+MCH-0156,Comercio_SUPE_156,Supermercados,Montevideo,Pequeño,Smart POS,2025-09-16
+MCH-0157,Comercio_FARM_157,Farmacias,Montevideo,Pequeño,Smart POS,2024-10-02
+MCH-0158,Comercio_SUPE_158,Supermercados,Montevideo,Mediano,Smart POS,2025-02-14
+MCH-0159,Comercio_FARM_159,Farmacias,Montevideo,Pequeño,POS Físico,2024-11-02
+MCH-0160,Comercio_FARM_160,Farmacias,Montevideo,Pequeño,POS Físico,2025-12-27
+MCH-0161,Comercio_SUPE_161,Supermercados,Montevideo,Pequeño,POS Físico,2026-02-12
+MCH-0162,Comercio_SUPE_162,Supermercados,Colonia,Pequeño,Smart POS,2025-07-01
+MCH-0163,Comercio_INDU_163,Indumentaria,Montevideo,Pequeño,Smart POS,2026-02-03
+MCH-0164,Comercio_FARM_164,Farmacias,Maldonado,Pequeño,POS Físico,2025-01-12
+MCH-0165,Comercio_GAST_165,Gastronomía,Montevideo,Mediano,Smart POS,2025-01-21
+MCH-0166,Comercio_GAST_166,Gastronomía,Paysandú,Mediano,POS Físico,2026-07-18
+MCH-0167,Comercio_SUPE_167,Supermercados,Montevideo,Pequeño,POS Físico,2024-11-12
+MCH-0168,Comercio_SUPE_168,Supermercados,Montevideo,Pequeño,Smart POS,2025-08-21
+MCH-0169,Comercio_SUPE_169,Supermercados,Montevideo,Pequeño,Smart POS,2025-03-05
+MCH-0170,Comercio_SUPE_170,Supermercados,Montevideo,Grande,Smart POS,2026-06-29
+MCH-0171,Comercio_E-CO_171,E-commerce,Montevideo,Pequeño,E-commerce Gateway,2026-03-26
+MCH-0172,Comercio_ESTA_172,Estaciones de Servicio,Canelones,Pequeño,POS Físico,2025-07-12
+MCH-0173,Comercio_INDU_173,Indumentaria,Montevideo,Pequeño,POS Físico,2025-09-07
+MCH-0174,Comercio_FARM_174,Farmacias,Montevideo,Pequeño,Smart POS,2025-11-15
+MCH-0175,Comercio_GAST_175,Gastronomía,Canelones,Pequeño,Smart POS,2026-05-20
+MCH-0176,Comercio_FARM_176,Farmacias,Montevideo,Pequeño,POS Físico,2025-11-14
+MCH-0177,Comercio_SUPE_177,Supermercados,Paysandú,Pequeño,Smart POS,2024-12-15
+MCH-0178,Comercio_GAST_178,Gastronomía,Canelones,Mediano,Smart POS,2026-04-29
+MCH-0179,Comercio_GAST_179,Gastronomía,Montevideo,Pequeño,Smart POS,2026-04-22
+MCH-0180,Comercio_E-CO_180,E-commerce,Paysandú,Pequeño,Link de Pago,2025-03-08
+MCH-0181,Comercio_ESTA_181,Estaciones de Servicio,Montevideo,Pequeño,Smart POS,2026-05-09
+MCH-0182,Comercio_FARM_182,Farmacias,Maldonado,Pequeño,Smart POS,2025-01-19
+MCH-0183,Comercio_SUPE_183,Supermercados,Montevideo,Pequeño,Smart POS,2026-03-12
+MCH-0184,Comercio_INDU_184,Indumentaria,Montevideo,Pequeño,Smart POS,2026-03-09
+MCH-0185,Comercio_GAST_185,Gastronomía,Maldonado,Pequeño,POS Físico,2025-03-19
+MCH-0186,Comercio_GAST_186,Gastronomía,Montevideo,Mediano,Smart POS,2025-01-02
+MCH-0187,Comercio_SUPE_187,Supermercados,Colonia,Pequeño,Smart POS,2026-01-30
+MCH-0188,Comercio_ESTA_188,Estaciones de Servicio,Canelones,Pequeño,Smart POS,2025-10-20
+MCH-0189,Comercio_FARM_189,Farmacias,Montevideo,Pequeño,Smart POS,2025-01-24
+MCH-0190,Comercio_FARM_190,Farmacias,Montevideo,Mediano,Smart POS,2024-11-04
+MCH-0191,Comercio_SUPE_191,Supermercados,Montevideo,Pequeño,Smart POS,2025-05-11
+MCH-0192,Comercio_SUPE_192,Supermercados,Canelones,Mediano,Smart POS,2025-12-14
+MCH-0193,Comercio_GAST_193,Gastronomía,Maldonado,Pequeño,Smart POS,2025-01-12
+MCH-0194,Comercio_SUPE_194,Supermercados,Montevideo,Mediano,POS Físico,2025-12-25
+MCH-0195,Comercio_SUPE_195,Supermercados,Canelones,Mediano,Smart POS,2025-09-02
+MCH-0196,Comercio_INDU_196,Indumentaria,Montevideo,Pequeño,POS Físico,2025-06-05
+MCH-0197,Comercio_SUPE_197,Supermercados,Colonia,Pequeño,POS Físico,2024-09-21
+MCH-0198,Comercio_GAST_198,Gastronomía,Salto,Pequeño,Smart POS,2025-07-01
+MCH-0199,Comercio_FARM_199,Farmacias,Canelones,Pequeño,Smart POS,2025-04-26
+MCH-0200,Comercio_ESTA_200,Estaciones de Servicio,Canelones,Mediano,Smart POS,2025-02-04
+MCH-0201,Comercio_INDU_201,Indumentaria,Montevideo,Pequeño,Smart POS,2025-04-12
+MCH-0202,Comercio_GAST_202,Gastronomía,Maldonado,Grande,Smart POS,2026-03-17
+MCH-0203,Comercio_GAST_203,Gastronomía,Montevideo,Grande,Smart POS,2025-11-07
+MCH-0204,Comercio_SUPE_204,Supermercados,Salto,Mediano,Smart POS,2025-11-30
+MCH-0205,Comercio_FARM_205,Farmacias,Montevideo,Pequeño,POS Físico,2026-05-14
+MCH-0206,Comercio_E-CO_206,E-commerce,Montevideo,Pequeño,E-commerce Gateway,2025-08-06
+MCH-0207,Comercio_FARM_207,Farmacias,Salto,Pequeño,POS Físico,2026-06-27
+MCH-0208,Comercio_INDU_208,Indumentaria,Montevideo,Pequeño,Smart POS,2024-11-23
+MCH-0209,Comercio_SUPE_209,Supermercados,Montevideo,Pequeño,POS Físico,2024-12-28
+MCH-0210,Comercio_ESTA_210,Estaciones de Servicio,Montevideo,Pequeño,Smart POS,2025-11-25
+MCH-0211,Comercio_SUPE_211,Supermercados,Canelones,Pequeño,Smart POS,2024-11-23
+MCH-0212,Comercio_SUPE_212,Supermercados,Montevideo,Pequeño,Smart POS,2025-12-05
+MCH-0213,Comercio_FARM_213,Farmacias,Canelones,Pequeño,Smart POS,2026-07-11
+MCH-0214,Comercio_SUPE_214,Supermercados,Colonia,Pequeño,POS Físico,2026-05-07
+MCH-0215,Comercio_SUPE_215,Supermercados,Montevideo,Pequeño,POS Físico,2024-10-10
+MCH-0216,Comercio_INDU_216,Indumentaria,Montevideo,Pequeño,POS Físico,2026-05-19
+MCH-0217,Comercio_GAST_217,Gastronomía,Canelones,Pequeño,POS Físico,2025-11-26
+MCH-0218,Comercio_E-CO_218,E-commerce,Salto,Pequeño,E-commerce Gateway,2026-05-10
+MCH-0219,Comercio_FARM_219,Farmacias,Montevideo,Pequeño,POS Físico,2026-06-16
+MCH-0220,Comercio_INDU_220,Indumentaria,Canelones,Pequeño,POS Físico,2025-08-14
+MCH-0221,Comercio_SUPE_221,Supermercados,Canelones,Pequeño,POS Físico,2026-05-07
+MCH-0222,Comercio_INDU_222,Indumentaria,Montevideo,Mediano,POS Físico,2025-02-07
+MCH-0223,Comercio_SUPE_223,Supermercados,Montevideo,Mediano,Smart POS,2025-11-17
+MCH-0224,Comercio_E-CO_224,E-commerce,Montevideo,Mediano,E-commerce Gateway,2025-10-06
+MCH-0225,Comercio_GAST_225,Gastronomía,Colonia,Pequeño,POS Físico,2025-03-08
+MCH-0226,Comercio_SUPE_226,Supermercados,Montevideo,Pequeño,Smart POS,2025-12-11
+MCH-0227,Comercio_GAST_227,Gastronomía,Colonia,Mediano,POS Físico,2025-01-12
+MCH-0228,Comercio_GAST_228,Gastronomía,Montevideo,Pequeño,POS Físico,2026-03-05
+MCH-0229,Comercio_FARM_229,Farmacias,Montevideo,Pequeño,POS Físico,2024-12-11
+MCH-0230,Comercio_GAST_230,Gastronomía,Salto,Mediano,POS Físico,2024-12-05
+MCH-0231,Comercio_E-CO_231,E-commerce,Montevideo,Mediano,Link de Pago,2025-03-21
+MCH-0232,Comercio_GAST_232,Gastronomía,Montevideo,Pequeño,Smart POS,2025-11-12
+MCH-0233,Comercio_FARM_233,Farmacias,Montevideo,Pequeño,Smart POS,2025-03-21
+MCH-0234,Comercio_ESTA_234,Estaciones de Servicio,Montevideo,Pequeño,POS Físico,2025-05-28
+MCH-0235,Comercio_SUPE_235,Supermercados,Salto,Pequeño,Smart POS,2026-01-05
+MCH-0236,Comercio_GAST_236,Gastronomía,Canelones,Mediano,Smart POS,2026-04-13
+MCH-0237,Comercio_SUPE_237,Supermercados,Montevideo,Pequeño,Smart POS,2026-04-10
+MCH-0238,Comercio_E-CO_238,E-commerce,Canelones,Mediano,E-commerce Gateway,2025-05-03
+MCH-0239,Comercio_SUPE_239,Supermercados,Salto,Pequeño,POS Físico,2025-07-21
+MCH-0240,Comercio_FARM_240,Farmacias,Montevideo,Pequeño,Smart POS,2025-05-11
+MCH-0241,Comercio_SUPE_241,Supermercados,Canelones,Pequeño,POS Físico,2025-05-24
+MCH-0242,Comercio_GAST_242,Gastronomía,Montevideo,Mediano,POS Físico,2025-03-27
+MCH-0243,Comercio_FARM_243,Farmacias,Montevideo,Mediano,Smart POS,2026-05-24
+MCH-0244,Comercio_INDU_244,Indumentaria,Montevideo,Pequeño,POS Físico,2024-09-17
+MCH-0245,Comercio_FARM_245,Farmacias,Montevideo,Pequeño,Smart POS,2024-09-25
+MCH-0246,Comercio_GAST_246,Gastronomía,Maldonado,Pequeño,POS Físico,2026-04-09
+MCH-0247,Comercio_INDU_247,Indumentaria,Montevideo,Mediano,POS Físico,2026-05-17
+MCH-0248,Comercio_SUPE_248,Supermercados,Maldonado,Mediano,Smart POS,2025-06-01
+MCH-0249,Comercio_GAST_249,Gastronomía,Canelones,Pequeño,POS Físico,2025-08-05
+MCH-0250,Comercio_ESTA_250,Estaciones de Servicio,Montevideo,Grande,POS Físico,2026-03-29
